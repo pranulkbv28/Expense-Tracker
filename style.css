@@ -1,0 +1,190 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/*  */
+/*  */
+/*  */
+
+/* This is start of navbar */
+
+.navbar-flex{
+    background-color: black;
+    color: white;
+    fill: white;
+    padding: 10px 26px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* border-radius: 15px; */
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+}
+.navbar-flex a{
+    color: white;
+    text-decoration: none;
+}
+.login{
+    padding: 4px 16px;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* This is start of navbar */
+
+/*  */
+/*  */
+/*  */
+
+/* This is start of header */
+.header{
+    text-align: left;
+    margin: 0;
+    /* width: 100%; */
+    background-color: rgb(221, 201, 178);
+    padding: 6px 10px;
+}
+.header-container{
+    width: 60%;
+    margin: 10px auto;
+    background-color: rgb(205, 174, 137);
+    text-align: center;
+    padding: 4px 14px;
+    border-radius: 18px;
+}
+.header-container h1{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0;
+}
+.header-container h4{
+    font-weight: 400;
+    margin-top: 0;
+}
+/* This is end of header */
+
+/*  */
+/*  */
+/*  */
+
+/* Starts of container */
+
+.cont{
+    background-color: rgb(221, 201, 178);
+    color: rgb(221, 201, 178);
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+.container{
+    width: 80%;
+    /* height: 800px; */
+    background-color: rgb(163, 142, 114);
+    margin: 0 auto 5px;
+    padding: 20px 10px;
+    border-radius: 18px;
+}
+.container-head{
+    text-align: center;
+}
+.container-head h2{
+    text-decoration: underline;
+}
+.container input{
+    padding: 8px;
+    border-radius: 8px;
+    border: 3px solid black;
+    color: white;
+    background-color: black;
+}
+.container input:focus{
+    border: 3px solid gray;
+    outline: 0;
+    color: white;
+}
+.container input:disabled{
+    background-color: black;
+    color: white;
+}
+.expen{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+.cont-body-flex{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.container-body{
+    text-align: center;
+    margin: 15px 0;
+    /* margin-right: 80px;
+    margin-left: 280px; */
+}
+/* .container-body h2{
+    text-decoration: underline;
+} */
+.container-body-flex{
+    margin: 25px 0 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container-body-values{
+    margin: 25px 0 25px;
+    text-align: left;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 100px;
+    /* padding: 0 18px; */
+}
+.container-body-values h4{
+    margin-bottom: 0;
+}
+.container-input{
+    width: 100%;
+}
+.container-body-values-show{
+    display: flex;
+    gap: 20px;
+    
+    width: 100%;
+    
+}
+.tag h5{
+    text-decoration: underline;
+}
+.tag p{
+    margin-bottom: 0;
+}
+.reas{
+    width: 200px;
+}
+.add-value{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 8px;
+}
+.btn{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    fill: white;
+    border: none;
+    padding: 16px 48px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* End of container */

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Start of navbar -->
+    <div class="navbar-flex">
+        <div class="icon">
+            <a href="index.html">
+                Icon
+            </a>
+        </div>
+        <div class="title">
+            Title
+        </div>
+        <div class="login">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+            </svg>
+        </div>
+    </div>
+    <!-- End of navbar -->
+
+    <!-- This is start of header -->
+    <div class="header">
+        <div class="header-container">
+            <h1>
+                Welcome !!
+            </h1>
+            <h4>
+                <em>
+                    "Optimize money management on our site with statistical advantage through color-coded data visualization."
+                </em>
+            </h4>
+        </div>
+    </div>
+    <!-- This is end of header -->
+    
+    <!-- Start of cobtainer -->
+    <div class="cont">
+        <div class="container">
+            <div class="container-head">
+                <h2>
+                    Total Budget:
+                </h2>
+                <input type="text" name="" id="fund" placeholder="Enter Your Funds Here">
+            </div>
+            <div class="container-body-flex">
+                <div>
+                    <h3>
+                        Total Spent Amountt:
+                    </h3>
+                    <input type="text" name="" id="spend" onchange="remaining()" placeholder="Money Spent">
+                </div>
+                <div>
+                    <h3>
+                        Remaining Amount:
+                    </h3>
+                    <input type="text" name="" id="rem" disabled placeholder="Remainder">
+                </div>
+            </div>
+            <h2 class="expen">
+                Expenditure:
+            </h2>
+            <div id="warning">
+
+            </div>
+            <div class="cont-body-flex">
+                <div class="container-body">
+                    
+                    <div class="container-body-values">
+                        <div class="container-input">
+                            <div>
+                                <h4>
+                                    Price:
+                                </h4>
+                                <input type="text" name="" id="price" maxlength="10" placeholder="How Much?">
+                            </div>
+                            <div>
+                                <h4>
+                                    Reason:
+                                </h4>
+                                <input type="text" name=""  id="reason" maxlength="40" placeholder="Why?">
+                            </div>
+                            <div>
+                                <h4>
+                                    Day:
+                                </h4>
+                                <input type="op" name="" id="day" maxlength="10" placeholder="DD/MM/YYYY">
+                            </div>
+                        </div>
+                        <div class="container-body-values-show">
+                            <div class="tag pri" id="information-p">
+                                <h5>Price</h5>
+                                <p>500</p>
+                            </div>
+                            <div class="tag reas" id="information-r">
+                                <h5>Reason</h5>
+                                <p>Food</p>
+                            </div>
+                            <div class="tag da" id="information-d">
+                                <h5>Day</h5>
+                                <p>21/02/2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div onclick="check()" class="add-value">
+                <button class="btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                    </svg> ADD VALUE
+                </button>
+            </div>
+        </div>   
+    </div>
+    <!-- End of cobtainer -->
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
